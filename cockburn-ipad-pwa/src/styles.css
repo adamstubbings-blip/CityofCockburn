@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --card: #ffffff; --muted: #64748b; }
+label { @apply text-sm text-slate-700; }
+input, textarea, select { @apply border border-slate-300 rounded-lg px-3 py-2 bg-white; }
+button { @apply rounded-lg px-3 py-2; }
+.card { @apply bg-white rounded-2xl shadow-sm border border-slate-200; }
+.card h3 { @apply font-semibold; }
+.badge { @apply text-xs px-2 py-1 rounded-full bg-slate-200; }
